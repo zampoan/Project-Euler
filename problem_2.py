@@ -15,10 +15,10 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 
 number_sequence = 10
-list_of_numbers = []
 sum_of_numbers = []
 
 def fibb_sequence():
+    list_of_numbers = []
     # init variables
     current_term = 2
     previous_term = 1
